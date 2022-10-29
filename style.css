@@ -96,7 +96,7 @@
 .inp_width {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .inp-text:focus {
@@ -141,7 +141,7 @@
 }
 
 .li > .inp-text {
-  width: 226px
+  width: 226px;
 }
 
 .butt-del__img {
@@ -164,12 +164,12 @@
 /* Edit Task */
 
 .edit .lab {
-  display: none
+  display: none;
 }
 
 .edit .inp_disp {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .inp_disp {
