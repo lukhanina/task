@@ -1,26 +1,33 @@
 /* Basic Style */
+
 .wrapper {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .matrix__img {
   width: 100%;
 }
+
 .matrix__href {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
+
 .matrix { text-align: center;
 }
+
 }
+
 .main-page {
   display: block;
   width: 500px;
@@ -30,16 +37,20 @@
 .task-row {
   display: flex;
 }
+
 .main-page__ul {
   margin:0;
   padding: 0px;
 }
+
 .li, .main-page__h3 {
   list-style:none;
 }
+
 .inp, .butt {
   outline:none;
 }
+
 .butt {
   background: none;
   border: 0px;
@@ -49,10 +60,13 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .butt:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .main-page__h3,
 .add__lab {
   color: #333;
@@ -63,6 +77,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .inp-text {
   margin: 0;
   font-size: 18px;
@@ -75,35 +90,40 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .lab_width,
 .inp_width {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .inp-text:focus {
   color: #333;
 }
 
 /* New Task */
+
 .add__lab {
   display: block;
   margin: 0 0 20px;
 }
+
 .task-row__inp {
   width: 318px;
 }
 
 /* Task list */
+
 .li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .li > * {
   vertical-align: middle;
 }
@@ -111,31 +131,37 @@
 .inp-checkb {
   margin: 0 10px;
 }
+
 .li > .lab {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .li > .inp-text {
   width: 226px
 }
+
 .butt-del__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .butt-del__img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .compl-tasks .lab {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
+
 .edit .lab {
   display:none
 }
@@ -146,5 +172,5 @@
 }
 
 .inp_disp {
-    display: none;
+  display: none;
 }
