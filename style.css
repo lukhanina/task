@@ -23,7 +23,8 @@
 
 @media (max-width:768px) {
 
-.matrix { text-align: center;
+.matrix { 
+    text-align: center;
 }
 
 }
@@ -39,16 +40,16 @@
 }
 
 .main-page__ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .li, .main-page__h3 {
-  list-style:none;
+  list-style: none;
 }
 
 .inp, .butt {
-  outline:none;
+  outline: none;
 }
 
 .butt {
@@ -163,12 +164,12 @@
 /* Edit Task */
 
 .edit .lab {
-  display:none
+  display: none
 }
 
 .edit .inp_disp {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .inp_disp {
