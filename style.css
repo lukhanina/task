@@ -44,11 +44,13 @@
   padding: 0px;
 }
 
-.li, .main-page__h3 {
+.li, 
+.main-page__h3 {
   list-style: none;
 }
 
-.inp, .butt {
+.inp, 
+.butt {
   outline: none;
 }
 
